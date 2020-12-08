@@ -1,5 +1,51 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+a:hover { text-decoration: none;
+
+}
+
+.logo-brand {
+  min-width: 120px;
+  max-width: 150px;
+}
+
+.navbar{
+  background-color: white;
+  box-shadow: 0 2px 4px 0 #3d3b3b;
+  min-height: 100px;
+  z-index: 9000;
+}
+
+
+.navbar-toggler {
+  text-decoration: none;
+   margin: 0 10px;
+   padding: 10px;
+   color: #414141;
+   border-radius: 24px;
+   font-size: 16px;
+   transition: 0.2s;
+  
+}
+
+.navbar-toggler:focus {
+  outline:none
+}
+
+.nav-link {
+  color: #3d3b3b;
+}
+
+.nav-link:hover { 
+  background: #f5e128;
+   color: #414141;
+   border-radius: 24px;
+}
+
+section {
+  margin: 50px;
 }
 
 html, body {
@@ -11,7 +57,7 @@ html, body {
 
 main {
   margin: auto;
-  width: 50%;
+  width: 100%;
   padding: 20px;
 }
 
